@@ -8,10 +8,14 @@ module.exports = {
       'lg': '1024px',
       'xl': '1280px'
     },
+
     extend: {
       backgroundImage: {
         'hero': 'url(/images/mobile/image-hero.jpg)',
-      }
+      },
+      colors: {
+        'darkGray': 'hsl(0, 0%, 55%)'
+      },
     },
   },
   plugins: [],
