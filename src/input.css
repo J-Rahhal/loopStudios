@@ -10,7 +10,10 @@
   background-size: cover;
   background-position: 50% 50%;
 }
-
+li:hover {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
 @media (min-width: 768px) {
   #hero {
     background-image: url("/images/desktop/image-hero.jpg");
@@ -20,8 +23,4 @@
     background-size: cover;
     background-position: 50% 50%;
   }
-
-  /* #heading-text > h1 {
-    word-wrap: break-word;
-  } */
 }
